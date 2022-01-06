@@ -1,0 +1,23 @@
+{
+  "name": "reviewscraper",
+  "version": "1.0.0",
+  "description": "Scrapes dealership reviews for fakes",
+  "main": "app/server.ts",
+  "scripts": {
+    "start":"ts-node-dev --respawn --transpile-only src/server.ts",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonkoon/reviewScraper.git"
+  },
+  "author": "Jason Koon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonkoon/reviewScraper/issues"
+  },
+  "homepage": "https://github.com/jasonkoon/reviewScraper#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}

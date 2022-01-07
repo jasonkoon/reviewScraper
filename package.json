@@ -4,7 +4,8 @@
   "description": "Scrapes dealership reviews for fakes",
   "main": "app/server.ts",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only -r dotenv/config -- src/server.ts",
+    "start": "ts-node-dev --transpile-only -r dotenv/config -- src/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only -r dotenv/config -- src/server.ts",
     "test": "npx jest"
   },
   "repository": {

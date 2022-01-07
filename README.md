@@ -21,3 +21,8 @@ Execute script:
 ```
 npm start
 ```
+
+Run tests:
+```
+npm test
+```
